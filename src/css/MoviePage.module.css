@@ -1,0 +1,70 @@
+.film {
+    width: 1170px;
+    background-color: black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 45px;
+    margin-bottom: 40px;
+    display: flex;
+    align-items: flex-start;
+    color: white;
+}
+.poster {
+    width: 300px;
+    border-radius: 4px;
+    margin-right: 60px;
+    margin-top: 60px;
+}
+.info {
+    width: 700px;
+}
+.name {
+    width: 100%;
+    padding-bottom: 10px;
+    text-align: center;
+    font-style: italic;
+    font-weight: lighter;
+    border-bottom: 1px solid white;
+    position: relative;
+}
+.star{
+    width: 20px;
+}
+.table {
+    font-size: 18px;
+    margin: 40px 0;
+    td {
+        padding: 7px 15px;
+    }
+}
+.p {
+    font-size: 18px;
+    border: 1px solid white;
+    border-radius: 4px;
+    padding: 15px;
+    line-height: 1.6;
+    margin-bottom: 40px;
+}
+.sameAndComment {
+    font-size: 18px;
+    font-style: italic;
+}
+.blockWithSameMovies {
+    width: 700px;
+    display: flex;
+}
+.comment {
+    width: 700px;
+    display: flex;
+    margin-bottom: 25px;
+    textarea {
+        background-color: black;
+        color: white;
+        resize: none;
+        width: 630px;
+        height: 50px;
+        margin-right: 10px;
+        border-radius: 4px;
+        padding: 7px;
+    }
+}

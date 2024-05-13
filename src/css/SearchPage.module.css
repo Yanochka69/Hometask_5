@@ -1,0 +1,28 @@
+.magnifier {
+    display: flex;
+    input {
+        width: 230px;
+        height: 34px;
+        padding-left: 7px;
+        border-radius: 4px;
+        border: none;
+        font-style: italic;
+    }
+}
+.content {
+    display: flex;
+}
+.notFound {
+    background-color: black;
+    width: 830px;
+    height: 600px;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    color: white;
+    font-size: 30px;
+}

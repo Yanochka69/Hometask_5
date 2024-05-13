@@ -1,0 +1,29 @@
+.notFound {
+    background-color: black;
+    width: 830px;
+    height: 650px;
+    border-radius: 4px;
+    margin: 150px;
+    padding: 50px;
+    color: white;
+    font-size: 30px;
+    img {
+        width: 60%;
+    }
+}
+.link {
+    background: black;
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    border: 2px solid white;
+    float: left;
+}
