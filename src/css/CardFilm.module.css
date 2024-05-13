@@ -1,0 +1,70 @@
+.card {
+    background-color: black;
+    width: 830px;
+    height: 600px;
+    padding-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+}
+.poster {
+    width: 250px;
+    height: auto;
+    z-index: 2;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+.info {
+    width: 550px;
+    height: 530px;
+    padding: 15px 50px;
+    box-sizing: border-box;
+    background-color: white;
+    border-radius: 4px;
+    position: relative;
+    right: 30px;
+}
+.star{
+    width: 20px;
+}
+.title{
+    color: black;
+    /* height: 40px; */
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 4px;
+    box-shadow: 2px 4px black;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 3px;
+    margin-bottom: 25px;
+}
+.title:hover {
+    background: linear-gradient(black, white);
+    color: white;
+    cursor: pointer;
+}
+.description {
+    border: 2px dotted black;
+    border-radius: 4px;
+    padding: 8px;
+}
+.instrumet{
+    position: absolute;
+    bottom: 0px;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.rating {
+    font-size: 27px;
+    margin-right: 10px;
+    color: #ffcb45;
+}
+.link {
+    text-decoration: none;
+}
